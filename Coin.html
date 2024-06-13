@@ -9,7 +9,7 @@
         <button type="button" onclick="location.href='index.html' ">이전으로</button>
     </h1>
     <hr>
-        <img id="Coin" src="/Coin/Coin.png" width="300" height="300" alt="Coin">
+        <img id="Coin" src="Coin/Coin.png" width="300" height="300" alt="Coin">
     <br>
         <button onclick="CoinToss()">코인토스</button>
     <script>
@@ -17,7 +17,7 @@
 
             let Toss = Math.ceil(Math.random()*2);
 
-            document.getElementById("Coin").src="/Coin/Coin"+Toss+".png";
+            document.getElementById("Coin").src="Coin/Coin"+Toss+".png";
         }
     </script>
 </body>
